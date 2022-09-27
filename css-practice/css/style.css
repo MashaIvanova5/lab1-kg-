@@ -1,0 +1,22 @@
+body {
+    background: #40408e; /* цвет фона страницы */
+   }
+
+.object {
+    position: absolute;
+}
+.van {
+    top: 45%;
+    left: 44%;
+}
+#axis:hover .move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+  
+}
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+   
+}
